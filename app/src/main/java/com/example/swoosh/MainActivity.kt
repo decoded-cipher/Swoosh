@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         getStartedButton.setOnClickListener {
             val leagueIntent = Intent(this, LeagueActivity::class.java)
-            startActivity(leagueIntent)
+            startActivity(leagueIntent) 
         }
     }
 }
