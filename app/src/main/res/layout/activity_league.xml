@@ -46,19 +46,23 @@
                 android:text="Mens"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/toggleButton" android:textOn="Mens" android:textOff="Mens"
-                android:textColor="#FFFFFF" android:background="@drawable/swoosh_toggle"/>
+                android:id="@+id/mensLeagueButton" android:textOn="Mens" android:textOff="Mens"
+                android:textColor="#FFFFFF" android:background="@drawable/swoosh_toggle"
+                android:onClick="onMensClicked"/>
         <ToggleButton
                 android:text="Womens"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" android:id="@+id/womensLeagueButton"
+                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp" android:textOff="Womens" android:textOn="Womens"
-                android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"/>
+                android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"
+                android:onClick="onWomensClicked"/>
         <ToggleButton
                 android:text="Co-Ed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton3" android:textOff="Co-Ed"
-                android:textOn="Co-Ed" android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"/>
+                android:layout_height="wrap_content" android:id="@+id/CoEdLeagueButton" android:textOff="Co-Ed"
+                android:textOn="Co-Ed" android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF"
+                android:onClick="onCoEdClicked"/>
     </LinearLayout>
     <Button
             android:text="NEXT"
